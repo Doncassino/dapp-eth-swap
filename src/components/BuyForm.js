@@ -17,10 +17,12 @@ import {
   CardActions,
   CardContent,
   Button,
+  IconButton,
   MenuItem
 } from '@material-ui/core';
 import EthSvg from './ethereum.svg';
 import TokenSvg from './token.svg';
+import CachedIcon from '@material-ui/icons/Cached';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -31,6 +33,9 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+  },
+  input: {
+    backgroundColor: 'white'
   },
   img: {
     width: '3em',
@@ -43,6 +48,7 @@ const BuyForm = ({
   tokenBalance,
   values,
   handleChange,
+  handleSwitchForm,
   buyTokens
 }) => {
   const classes = useStyles();
@@ -65,6 +71,7 @@ const BuyForm = ({
             <OutlinedInput
               id="outlined-basic"
               variant="outlined"
+              className={classes.input}
               value={values.input}
               onChange={handleChange('input')}
               endAdornment={
@@ -75,6 +82,13 @@ const BuyForm = ({
               }
             />
           </FormControl>
+        </Grid>
+        <Grid item xs={12} style={{ textAlign: 'center' }}>
+          <IconButton
+            onClick={() => handleSwitchForm()}
+          >
+            <CachedIcon fontSize="large" color="primary" />
+          </IconButton>
         </Grid>
         <Grid item xs={6} style={{ textAlign: 'left' }}>
           <Typography noWrap>
@@ -92,6 +106,7 @@ const BuyForm = ({
               disabled
               id="outlined-basic"
               variant="outlined"
+              className={classes.input}
               value={values.output}
               onChange={handleChange('output')}
               endAdornment={

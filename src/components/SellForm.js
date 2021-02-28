@@ -17,10 +17,12 @@ import {
   CardActions,
   CardContent,
   Button,
+  IconButton,
   MenuItem
 } from '@material-ui/core';
 import EthSvg from './ethereum.svg';
 import TokenSvg from './token.svg';
+import CachedIcon from '@material-ui/icons/Cached';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -31,6 +33,9 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+  },
+  input: {
+    backgroundColor: 'white'
   },
   img: {
     width: '3em',
@@ -43,6 +48,7 @@ const sellForm = ({
   tokenBalance,
   values,
   handleChange,
+  handleSwitchForm,
   sellTokens
 }) => {
   const classes = useStyles();
@@ -65,6 +71,7 @@ const sellForm = ({
             <OutlinedInput
               id="outlined-basic"
               variant="outlined"
+              className={classes.input}
               value={values.output}
               onChange={handleChange('output')}
               endAdornment={
@@ -75,6 +82,13 @@ const sellForm = ({
               }
             />
           </FormControl>
+        </Grid>
+        <Grid item xs={12} style={{ textAlign: 'center' }}>
+          <IconButton
+            onClick={() => handleSwitchForm()}
+          >
+            <CachedIcon fontSize="large" color="primary" />
+          </IconButton>
         </Grid>
         <Grid item xs={6} style={{ textAlign: 'left' }}>
           <Typography noWrap>
@@ -92,6 +106,7 @@ const sellForm = ({
               disabled
               id="outlined-basic"
               variant="outlined"
+              className={classes.input}
               value={values.input}
               onChange={handleChange('input')}
               endAdornment={
@@ -119,7 +134,7 @@ const sellForm = ({
             color="primary"
             style={{ width: "100%" }}
             onClick={() => {
-              let etherAmount = values.input.toString();
+              let etherAmount = values.output.toString();
               etherAmount = window.web3.utils.toWei(etherAmount, 'Ether');
               sellTokens(etherAmount);
             }}

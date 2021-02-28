@@ -14,6 +14,7 @@ import SellForm from './SellForm';
 const useStyles = makeStyles((theme) => ({
   card: {
     maxWidth: '600px',
+    // backgroundColor: 'lightgray'
   },
   margin: {
     padding: '1em'
@@ -50,6 +51,14 @@ const Main = ({
     output: '0'
   });
 
+  const handleSwitchForm = () => {
+    if (currentForm === 'buy') {
+      setCurrentForm('sell');
+    } else {
+      setCurrentForm('buy');
+    }
+  }
+
   const handleBuyChange = (prop) => (event) => {
     const newValues = { ...values, [prop]: event.target.value };
     const amount = event.target.value * 100;
@@ -79,30 +88,9 @@ const Main = ({
 
   return (
     <Grid container spacing={3}>
-      <Grid item sm={3} />
-      <Grid item sm={6}>
-        <Button
-          className="btn btn-light"
-          onClick={() => {
-            setCurrentForm('buy');
-          }}
-        >
-          Buy
-        </Button>
-        <span className="text-muted">&lt; &nbsp; &gt;</span>
-        <Button
-          className="btn btn-light"
-          onClick={() => {
-            setCurrentForm('sell');
-          }}
-        >
-          Sell
-        </Button>
-      </Grid>
-      <Grid item sm={3} />
-      <Grid item sm={3} />
-      <Grid item sm={6}>
-        <Card className={classes.card}>
+      <Grid item xs={2} sm={3} md={4} />
+      <Grid item xs={8} sm={6} md={4} >
+        <Card className={classes.card} elevation={5}>
           <CardContent>
             {currentForm === 'buy' &&
               <BuyForm
@@ -110,6 +98,7 @@ const Main = ({
                 tokenBalance={tokenBalance}
                 values={values}
                 handleChange={handleBuyChange}
+                handleSwitchForm={handleSwitchForm}
                 buyTokens={buyTokens}
               />
             }
@@ -119,13 +108,14 @@ const Main = ({
                 tokenBalance={tokenBalance}
                 values={values}
                 handleChange={handleSellChange}
+                handleSwitchForm={handleSwitchForm}
                 sellTokens={sellTokens}
               />
             }
           </CardContent>
         </Card>
       </Grid>
-      <Grid item sm={3} />
+      <Grid item xs={2} sm={3} md={4} />
     </Grid>
   )
 };

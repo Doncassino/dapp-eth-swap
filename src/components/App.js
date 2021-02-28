@@ -86,7 +86,7 @@ const App = ({
       const token = new web3.eth.Contract(Token.abi, tokenData.address);
       setToken(token);
       let tokenBalance = await token.methods.balanceOf(accounts[0]).call();
-      setTokenBalance(tokenBalance);
+      setTokenBalance(tokenBalance.toString());
     } else {
       window.alert('Token contract not deployed to detected network.')
     }

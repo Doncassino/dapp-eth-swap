@@ -41,7 +41,7 @@ const Navbar = ({
           <Toolbar>
             <Typography noWrap>
               <img src={TokenSvg} className={classes.img} />
-              {`DApp`}
+              {`DApp ETH-Token Swap`}
             </Typography>
           </Toolbar>
         </Grid>
