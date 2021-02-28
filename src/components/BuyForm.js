@@ -57,7 +57,7 @@ const BuyForm = ({
         </Grid>
         <Grid item xs={6} style={{ textAlign: 'right' }}>
           <Typography noWrap>
-            {`Balance: ${window.web3.utils.fromWei(ethBalance, 'Ether')}`}
+            {`Balance: ${ethBalance ? window.web3.utils.fromWei(ethBalance, 'Ether') : 0}`}
           </Typography>
         </Grid>
         <Grid item xs={12} style={{ textAlign: 'left' }}>
