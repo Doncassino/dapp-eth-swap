@@ -179,7 +179,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 142,
-        "sourceUnit": 380,
+        "sourceUnit": 323,
         "src": "25:21:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -250,7 +250,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Token_$379",
+              "typeIdentifier": "t_contract$_Token_$322",
               "typeString": "contract Token"
             },
             "typeName": {
@@ -258,10 +258,10 @@
               "id": 6,
               "name": "Token",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 379,
+              "referencedDeclaration": 322,
               "src": "128:5:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Token_$379",
+                "typeIdentifier": "t_contract$_Token_$322",
                 "typeString": "contract Token"
               }
             },
@@ -584,7 +584,7 @@
                       "referencedDeclaration": 7,
                       "src": "496:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Token_$379",
+                        "typeIdentifier": "t_contract$_Token_$322",
                         "typeString": "contract Token"
                       }
                     },
@@ -599,13 +599,13 @@
                       "referencedDeclaration": 32,
                       "src": "504:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Token_$379",
+                        "typeIdentifier": "t_contract$_Token_$322",
                         "typeString": "contract Token"
                       }
                     },
                     "src": "496:14:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Token_$379",
+                      "typeIdentifier": "t_contract$_Token_$322",
                       "typeString": "contract Token"
                     }
                   },
@@ -636,7 +636,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Token_$379",
+                    "typeIdentifier": "t_contract$_Token_$322",
                     "typeString": "contract Token"
                   },
                   "typeName": {
@@ -644,10 +644,10 @@
                     "id": 31,
                     "name": "Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 379,
+                    "referencedDeclaration": 322,
                     "src": "464:5:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Token_$379",
+                      "typeIdentifier": "t_contract$_Token_$322",
                       "typeString": "contract Token"
                     }
                   },
@@ -727,7 +727,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 394,
+                        "referencedDeclaration": 337,
                         "src": "595:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -799,7 +799,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 410,
+                                  "referencedDeclaration": 353,
                                   "src": "654:4:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_EthSwap_$141",
@@ -858,7 +858,7 @@
                               "referencedDeclaration": 7,
                               "src": "630:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Token_$379",
+                                "typeIdentifier": "t_contract$_Token_$322",
                                 "typeString": "contract Token"
                               }
                             },
@@ -869,7 +869,7 @@
                             "lValueRequested": false,
                             "memberName": "balanceOf",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 175,
                             "src": "630:15:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -923,10 +923,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        397,
-                        398
+                        340,
+                        341
                       ],
-                      "referencedDeclaration": 397,
+                      "referencedDeclaration": 340,
                       "src": "622:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -963,7 +963,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 394,
+                          "referencedDeclaration": 337,
                           "src": "704:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1018,7 +1018,7 @@
                         "referencedDeclaration": 7,
                         "src": "689:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Token_$379",
+                          "typeIdentifier": "t_contract$_Token_$322",
                           "typeString": "contract Token"
                         }
                       },
@@ -1029,7 +1029,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 290,
+                      "referencedDeclaration": 233,
                       "src": "689:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -1066,7 +1066,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 394,
+                          "referencedDeclaration": 337,
                           "src": "786:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1099,7 +1099,7 @@
                             "referencedDeclaration": 7,
                             "src": "806:5:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Token_$379",
+                              "typeIdentifier": "t_contract$_Token_$322",
                               "typeString": "contract Token"
                             }
                           }
@@ -1107,7 +1107,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Token_$379",
+                              "typeIdentifier": "t_contract$_Token_$322",
                               "typeString": "contract Token"
                             }
                           ],
@@ -1272,7 +1272,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 394,
+                                "referencedDeclaration": 337,
                                 "src": "982:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1310,7 +1310,7 @@
                               "referencedDeclaration": 7,
                               "src": "966:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Token_$379",
+                                "typeIdentifier": "t_contract$_Token_$322",
                                 "typeString": "contract Token"
                               }
                             },
@@ -1321,7 +1321,7 @@
                             "lValueRequested": false,
                             "memberName": "balanceOf",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 175,
                             "src": "966:15:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -1375,10 +1375,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        397,
-                        398
+                        340,
+                        341
                       ],
-                      "referencedDeclaration": 397,
+                      "referencedDeclaration": 340,
                       "src": "958:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1510,7 +1510,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 410,
+                                "referencedDeclaration": 353,
                                 "src": "1132:4:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_EthSwap_$141",
@@ -1599,10 +1599,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        397,
-                        398
+                        340,
+                        341
                       ],
-                      "referencedDeclaration": 397,
+                      "referencedDeclaration": 340,
                       "src": "1116:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1639,7 +1639,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 394,
+                          "referencedDeclaration": 337,
                           "src": "1218:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1669,7 +1669,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 410,
+                            "referencedDeclaration": 353,
                             "src": "1238:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_EthSwap_$141",
@@ -1749,7 +1749,7 @@
                         "referencedDeclaration": 7,
                         "src": "1199:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Token_$379",
+                          "typeIdentifier": "t_contract$_Token_$322",
                           "typeString": "contract Token"
                         }
                       },
@@ -1760,7 +1760,7 @@
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 378,
+                      "referencedDeclaration": 321,
                       "src": "1199:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -1818,7 +1818,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 394,
+                          "referencedDeclaration": 337,
                           "src": "1264:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1883,7 +1883,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 394,
+                          "referencedDeclaration": 337,
                           "src": "1351:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1916,7 +1916,7 @@
                             "referencedDeclaration": 7,
                             "src": "1371:5:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Token_$379",
+                              "typeIdentifier": "t_contract$_Token_$322",
                               "typeString": "contract Token"
                             }
                           }
@@ -1924,7 +1924,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Token_$379",
+                              "typeIdentifier": "t_contract$_Token_$322",
                               "typeString": "contract Token"
                             }
                           ],
@@ -2116,7 +2116,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 380,
+          "SourceUnit": 323,
           "absolutePath": "/C/Users/TriAzur/Desktop/TRAVAIL/BLOCKCHAIN/dapp-eth-swap/src/contracts/Token.sol",
           "file": "./Token.sol",
           "scope": 142,
@@ -2205,7 +2205,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Token",
-                  "referencedDeclaration": 379,
+                  "referencedDeclaration": 322,
                   "type": "contract Token"
                 },
                 "id": 6,
@@ -2551,7 +2551,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Token",
-                          "referencedDeclaration": 379,
+                          "referencedDeclaration": 322,
                           "type": "contract Token"
                         },
                         "id": 31,
@@ -2748,7 +2748,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 394,
+                                  "referencedDeclaration": 337,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -2811,10 +2811,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                397,
-                                398
+                                340,
+                                341
                               ],
-                              "referencedDeclaration": 397,
+                              "referencedDeclaration": 340,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2865,7 +2865,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "balanceOf",
-                                      "referencedDeclaration": 232,
+                                      "referencedDeclaration": 175,
                                       "type": "function (address) view external returns (uint256)"
                                     },
                                     "children": [
@@ -2928,7 +2928,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 410,
+                                          "referencedDeclaration": 353,
                                           "type": "contract EthSwap",
                                           "value": "this"
                                         },
@@ -3009,7 +3009,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transfer",
-                              "referencedDeclaration": 290,
+                              "referencedDeclaration": 233,
                               "type": "function (address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -3050,7 +3050,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 394,
+                                  "referencedDeclaration": 337,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -3153,7 +3153,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 394,
+                                  "referencedDeclaration": 337,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -3185,7 +3185,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_Token_$379",
+                                      "typeIdentifier": "t_contract$_Token_$322",
                                       "typeString": "contract Token"
                                     }
                                   ],
@@ -3355,10 +3355,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                397,
-                                398
+                                340,
+                                341
                               ],
-                              "referencedDeclaration": 397,
+                              "referencedDeclaration": 340,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3409,7 +3409,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "balanceOf",
-                                      "referencedDeclaration": 232,
+                                      "referencedDeclaration": 175,
                                       "type": "function (address) view external returns (uint256)"
                                     },
                                     "children": [
@@ -3450,7 +3450,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 394,
+                                          "referencedDeclaration": 337,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -3609,10 +3609,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                397,
-                                398
+                                340,
+                                341
                               ],
-                              "referencedDeclaration": 397,
+                              "referencedDeclaration": 340,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3687,7 +3687,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 410,
+                                          "referencedDeclaration": 353,
                                           "type": "contract EthSwap",
                                           "value": "this"
                                         },
@@ -3772,7 +3772,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transferFrom",
-                              "referencedDeclaration": 378,
+                              "referencedDeclaration": 321,
                               "type": "function (address,address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -3813,7 +3813,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 394,
+                                  "referencedDeclaration": 337,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -3866,7 +3866,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 410,
+                                  "referencedDeclaration": 353,
                                   "type": "contract EthSwap",
                                   "value": "this"
                                 },
@@ -3955,7 +3955,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 394,
+                                      "referencedDeclaration": 337,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4063,7 +4063,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 394,
+                                  "referencedDeclaration": 337,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4095,7 +4095,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_Token_$379",
+                                      "typeIdentifier": "t_contract$_Token_$322",
                                       "typeString": "contract Token"
                                     }
                                   ],
@@ -4258,12 +4258,12 @@
         }
       },
       "links": {},
-      "address": "0x06B3Fc2004A9B375bE3Bf3Ac8BE718115C8705d8",
-      "transactionHash": "0x92958ad25a115cd8b42a1a51b735f6197ab6e61800c43d46133913f56bd2b421"
+      "address": "0x7a585bb15Fe8719B8c7c048d89055283336480Ae",
+      "transactionHash": "0xf37d94a18fa24f9d3306289799164c015c4ad1faa1f71b1617d0f3b157f331cd"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-02-28T08:18:08.186Z",
+  "updatedAt": "2021-03-22T18:09:25.494Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
